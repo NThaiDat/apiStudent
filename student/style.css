@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin:2%;
+}
+
+.formButton button {
+ margin-top: 4%;
+    margin-right: 3%;
+}
+
+.formButton {
+    display: flex;
+}
+
+.table {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 2%;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table, td, th {
+    border: 1px solid black;
+}
+#studentTable th{
+    background-color: aqua
+}
+#studentTable td{
+    background-color: #b2fddf
+}
+#studentTable th {
+    margin: 2%;
+}

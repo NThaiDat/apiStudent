@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div>
+    <header>
+        <p>Quan ly sinh vien</p>
+        <div class="formInput">
+            <table>
+                <tr>
+                    <td>
+                        <label for="inputID">ID: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="inputID">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputName">Name: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="inputName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputSTT">STT: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="inputSTT">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputClass">Class: </label>
+                    </td>
+                    <td>
+                        <input type="text" id="inputClass">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="formButton">
+            <button id="btnAdd" onclick="addData()" style="background-color: aqua">Add</button>
+            <button id="btnEdit" onclick="updateData()" style="background-color: aquamarine">Edit</button>
+            <button id="btnDelete" onclick="deleteData()" style="background-color: red">Delete</button>
+            <button id="btnSearch" onclick="clearForm()" style="background-color: orange">Clear</button>
+        </div>
+    </header>
+    <div class="table">
+        <table id="studentTable">
+            <tr>
+                <th>STT</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
